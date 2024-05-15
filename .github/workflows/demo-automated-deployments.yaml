@@ -6,10 +6,10 @@ name: demo-automated-deployments
     workflow_dispatch: {}
 env:
     ACR_RESOURCE_GROUP: aks-demo-deployments
-    AZURE_CONTAINER_REGISTRY: aksdemotestdeployments
+    AZURE_CONTAINER_REGISTRY: acrworkflow1715778575329
     CLUSTER_NAME: aks-automated-deployments-demo
     CLUSTER_RESOURCE_GROUP: aks-demo-deployments
-    CONTAINER_NAME: image-workflow-1715778238152
+    CONTAINER_NAME: image-workflow-1715778575329
     DEPLOYMENT_MANIFEST_PATH: |
         manifests/deployment.yaml
         manifests/service.yaml
